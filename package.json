@@ -1,0 +1,46 @@
+{
+  "name": "baskot_poultery",
+  "version": "1.0.0",
+  "description": "keep tracks of records",
+  "main": "main.js",
+  "scripts": {
+    "start": "cross-env --location=global` electron . ",
+    "package": "electron-packager ."
+  },
+  "build": {
+    "win": {
+      "icon": "chicks.png"
+    },
+    "mac": {
+      "icon": "chicks.png"
+    }
+  },
+  "keywords": [],
+  "author": "shishir",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.22.1",
+    "@babel/preset-env": "^7.22.4",
+    "electron": "^24.3.1",
+    "tailwindcss": "^3.3.2"
+  },
+  "dependencies": {
+    "child_process": "^1.0.2",
+    "cross-env": "^7.0.3",
+    "electron-builder": "^23.6.0",
+    "find-process": "^1.4.7",
+    "path": "^0.12.7",
+    "pgrep": "^0.0.6",
+    "ps-list": "^8.1.1",
+    "serve": "^14.2.0",
+    "url": "^0.11.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nandalalsun/baskot_poultry.git"
+  },
+  "bugs": {
+    "url": "https://github.com/nandalalsun/baskot_poultry/issues"
+  },
+  "homepage": "https://github.com/nandalalsun/baskot_poultry#readme"
+}
